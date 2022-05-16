@@ -38,5 +38,6 @@ response.end(JSON.stringify (req));
 module.exports = router
 router.delete("/deleteUsers", function(request , response, next){
     response.send("Delete request executed") 
+    // This is a delete 
 
 })
